@@ -12,8 +12,42 @@ header {
 
 .first-view {
   text-align: center;
-  height: 500px;
+  height: 0px;
   background-color: beige;
+}
+
+.price-area {
+  text-align: center;
+  margin: 0 25%;
+}
+
+.price-area h2 {
+  font-size: large;
+}
+
+.price-area p{
+  margin: 0;
+  padding: 0;
+}
+
+.price-view {
+  border-radius: 10px;
+  background-color: antiquewhite;
+  padding-bottom: 10px;
+}
+
+.price-display {
+  font-size: 40px;
+}
+
+.price-num-display {
+  color: orange;
+  font-size: 150%;
+  text-decoration-line: underline;
+}
+
+.price-num-display:hover {
+  transform: scale(1.3, 1.3);
 }
 
 .benefits {
