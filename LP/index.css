@@ -114,8 +114,38 @@ header {
   width: 50rem;
 }
 
-footer {
+.float-banner{
+  position: fixed;
+  bottom: 3%;
+  width: 100%;
+  display: inline-block;
   text-align: center;
-  height: 50px;
-  background-color: blanchedalmond;
+}
+
+.banner-nyukai{
+  max-width: 386px;
+  border-radius: 30px;
+  background: #32AA8B;
+  width: 70%;
+  list-style:none;
+  display: inline;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(200,200,200,0.8);
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 1.2%;
+}
+
+.banner-tempo{
+  max-width: 232px;
+  border-radius: 30px;
+  background: #F2F1EF;
+  width: 30%;
+  list-style:none;
+  display: inline;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(200,200,200,0.8);
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 1.2%;
 }
