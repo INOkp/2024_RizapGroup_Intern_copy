@@ -11,9 +11,35 @@ header {
 }
 
 .first-view {
-  text-align: center;
-  height: 0px;
-  background-color: beige;
+  position: relative;
+  height: 500px;
+  background-image: url('images/fv-image01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.fv-title-group {
+  position: relative;
+  font-size: 60px;
+  font-family: 'MS ゴシック';
+  font-weight: bold;
+  top: 30%;
+  margin-left: 10%;
+}
+
+.fv-title-group div{
+  margin-bottom: 10px;
+}
+
+.fv-title01, .fv-title02, .fv-title03 {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, yellow 0%, yellow 50%, white 50%, white 100%);
+  transition: color 0.3s, background-position 0.3s;
+  padding: 0 1%;
 }
 
 .price-area {
@@ -58,20 +84,8 @@ header {
 
 .faq-question {
   text-align: center;
-  height: 1500px;
-  background-color:#fffee2;
-}
-
-.faq-QandA{
-  color: #333333;
-  font-size: 1rem;
-  text-align: center;
-  background-color: #ffffff;
-  margin: 2rem auto;
-  padding: 2rem;
-  border-radius: 2rem;
-  border: solid 3px #333333;
-  width: 50rem;
+  height: 500px;
+  background-color: bisque;
 }
 
 footer {
