@@ -5,9 +5,49 @@ html {
 }
 
 header {
-  text-align: center;
-  height: 50px;
-  background-color: aquamarine;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid black;
+  align-items: center;
+}
+
+.header-group {
+  margin-right: auto;
+}
+
+.header-item {
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  transition: .2s;
+}
+
+.header-item:hover {
+  transform: translateY(5px);
+  opacity: 0.6;
+}
+
+.header-item a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#header-join {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 50px;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: darkorange;
+  border-radius: 8px;
+  transition: .2s;
+}
+
+#header-join:hover {
+  transform: scale(1.1);
 }
 
 .first-view {
