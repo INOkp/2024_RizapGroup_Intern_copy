@@ -15,7 +15,6 @@ $(function(){
 
     let footer_banner = $('.float-banner');
     $(window).scroll(function () {
-        console.log($(this).scrollTop());
         if ($(this).scrollTop() > 100) {
             //バナーの表示
             footer_banner.fadeIn();
