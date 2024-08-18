@@ -229,6 +229,14 @@
                   modal.style.display = "block";
               });
           });
+
+          document.querySelectorAll('.bf-a').forEach(function (button) {
+              button.addEventListener('click', function () {
+                  var modalId = this.getAttribute('data-modal');
+                  var modal = document.getElementById(modalId);
+                  modal.style.display = "block";
+              });
+          });
           
           // すべてのモーダルの閉じるボタンに対するイベントリスナーを設定
           document.querySelectorAll('.modal .close').forEach(function (span) {
