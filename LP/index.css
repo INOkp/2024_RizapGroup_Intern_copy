@@ -228,11 +228,11 @@ header {
 /* モーダルコンテンツ */
 .modal-content {
   background-color: #fefefe;
-  margin: 3% auto;
+  margin: 15% auto;
   /* 中央に配置 */
   padding: 20px;
   border: 1px solid #888;
-  width: 30%;
+  width: 80%;
   /* 幅 */
 }
 
@@ -261,12 +261,13 @@ footer {
   background-color: #EEF0F1;
   color: #122939;
   text-align: left;
-  font-size: 1.8rem;
-  padding: 100px 40px;
+  font-size: 1.6rem;
+  padding: 50px 100px 40px 40px;
 }
 
 footer a{
   margin: 20px 10px;
+  color: #122939;
 }
 
 footer p{
