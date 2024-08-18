@@ -12,4 +12,16 @@ $(function(){
     setTimeout(function(){
       $('.fv-title03').css('background-position', '0 0');
     }, 2000 );
+
+    let footer_banner = $('.float-banner');
+    $(window).scroll(function () {
+        console.log($(this).scrollTop());
+        if ($(this).scrollTop() > 100) {
+            //バナーの表示
+            footer_banner.fadeIn();
+        } else {
+            //バナーの非表示
+            footer_banner.fadeOut();
+        }
+    });
 });
