@@ -256,3 +256,20 @@ header {
   font-size: 300%;
   text-align: right;
 }
+
+footer {
+  background-color: #EEF0F1;
+  color: #122939;
+  text-align: left;
+  font-size: 1.8rem;
+  padding: 100px 40px;
+}
+
+footer a{
+  margin: 20px 10px;
+}
+
+footer p{
+  font-size: 1.2rem;
+  margin: 20px 30px;
+}
