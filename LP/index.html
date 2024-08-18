@@ -5,19 +5,35 @@
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="app.js"></script>
     <title>chocozap-LP</title>
   </head>
 
   <body>
     <header>
-      <p>ヘッダーを構成してください！</p>
-      <p>＊pタグは消して構いません！自由に作成してみてください！</p>
+      <img src="images/header-logo.png" width="20%" height="20%">
+      <nav>
+        <ul class="header-group">
+          <li class="header-item"><a href="#first-view">選ばれる理由</a></li>
+          <li class="header-item"><a href="#price">料金</a></li>
+          <li class="header-item"><a href="#benefits">設備</a></li>
+          <li class="header-item"><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a id="header-join" href="https://contract.chocozap.jp/signup?_gl=1*1boghc1*_gcl_aw*R0NMLjE3MjM5MDE0MDIuQ2owS0NRandsSUcyQmhDNEFSSXNBREJncFZTZEFGRGRRWlByMVZGVXoxNWZEeDc1ZElySTlPTE1ScDN3Y1A1b3dMd2sySWd5RmotNGZWZ2FBckpxRUFMd193Y0I.*_gcl_au*MTM2MDM2MzY2Ni4xNzIzNzkyMTA3*_ga*MTg2NzEyODkyOS4xNzIzNzkyMTA3*_ga_GQCE0L4WC2*MTcyMzkwMTM1MS41LjEuMTcyMzkwMjM1NC42MC4wLjA.">
+        入会はこちら
+      </a>
     </header>
 
     <main>
-      <section class="first-view">
-        <!-- 焦らせる -->
-         
+
+      <section class="first-view"　id="first-view">
+        <!-- トップ画面 -->
+        <div class="fv-title-group">
+          <div><span class="fv-title01">モテたい君が</span></div>
+          <div><span class="fv-title02">通う場所、</span></div>
+          <div><span class="fv-title03">チョコザップ。</span></div>
+        </div>
       </section>
 
       <section class="bf">
@@ -32,23 +48,68 @@
 
       </section>
 
-      <section>
+      <section class="price-area" id="price">
         <!-- 料金 -->
-
+        <div>
+          <div class="price-view">
+            <p class="price-display">月額<span class="price-num-display">2,980</span>円</p>
+            <p>(税込3,278円)</p>
+            <p>【初期費用】入会金3,000円 + 事務手数料2,000円</p>
+          </div>
+        </div>
       </section>
 
-      <section class="benefits">
+      <section class="benefits" id="benefits">
         <!-- 設備紹介 -->
 
       </section>
 
-      <section class="faq-question">
-        <!-- FAQ -->
-
+      <section class="faq-question" id="faq">
+        <h2 style="padding-top: 1rem;">FAQ</h2>
+        <div class="faq-QandA">
+          <h3>運動やジムの経験がありません…</h3>
+          <p>チョコザップは入会者の50%がジム初心者なので、はじめてでも簡単に運動を始められます！<br>
+            店舗についたら、すぐ運動開始OK！</p>
+        </div>
+        <div class="faq-QandA">
+          <h3>脱毛やホワイトニングを見られるのが恥ずかしいです</h3>
+          <p>人目が気になりやすいエステや脱毛、ホワイトニングは完全個室のため安心してご利用いただけます！<br>
+          トレーニングマシン以外は完全予約制なので安心！</p>
+        </div>
+        <div class="faq-QandA">
+          <h3>今すぐジムに行きたいです！入会から利用開始までどれくらいかかりますか？</h3>
+          <p>入会すればその日から利用できます！<br>
+            チョコザップの入会方法に必要なのはスマホだけ！<br>
+            24時間入会手続きができ、登録は3分もあればできます！<br>
+            今すぐジムに行こう！</p>
+        </div>
+        <div class="faq-QandA">
+          <h3>月末に入ったら損ですか？</h3>
+          <p>チョコザップの利用料金は日割計算！<br>
+            月の中旬に入会したら、月額料金から中旬以降の日程を計算して請求されるので損することはありません！<br>
+            利用開始日は自分で設定できるので事前申し込みでも安心！</p>
+        </div>
+        <div class="faq-QandA">
+          <h3>ジムには何をもっていけばいいですか？</h3>
+          <p>チョコザップに必要なのはスマホだけ！<br>
+            アプリをかざすだけで入館できます！<br>
+            (水やタオルイヤホンをもっていくとより快適にトレーニングできます)</p>
+        </div>
+        <div class="faq-QandA">
+          <h3>明日から帰省なのでジムに行けないな…</h3>
+          <p>チョコザップは全国1,500店以上展開！<br>
+            全国いつでもどこでもサクッと通いやすいコンビニジムです！</p>
+        </div>
+        <h3>その他のご質問は<a href="https://faq.chocozap.jp/chocozap_faq">こちら</a></h3>
       </section>
 
       </article>
     </main>
-    <footer>copyright © chocoZAP</footer>
+    <div class="float-banner">
+      <ul>
+        <li class="banner-nyukai"><a href=""><img src="images/text_nyuukai.svg" width="266" height="32" alt="ご入会はこちら"><a></li>
+        <li class="banner-tempo"><a href=""><img src="images/text_search.svg" width="147" height="32" alt="店舗検索"><a></li>
+      </ul>
+    </div>
   </body>
 </html>
