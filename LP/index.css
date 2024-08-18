@@ -152,7 +152,6 @@ header {
 
 
 .banner-nyukai {
-  max-width: 386px;
   border-radius: 30px;
   background: #32AA8B;
   width: 70%;
@@ -162,11 +161,10 @@ header {
   box-shadow: 5px 5px 5px rgba(200, 200, 200, 0.8);
   box-sizing: border-box;
   margin: 20px;
-  padding: 3%;
+  padding: 20px;
 }
 
 .banner-tempo {
-  max-width: 232px;
   border-radius: 30px;
   background: #F2F1EF;
   width: 30%;
@@ -176,7 +174,7 @@ header {
   box-shadow: 5px 5px 5px rgba(200, 200, 200, 0.8);
   box-sizing: border-box;
   margin: 20px;
-  padding: 3%;
+  padding: 20px;
 }
 
 .bf {
