@@ -1,47 +1,227 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="bootstrap.css" />
-    <link rel="stylesheet" href="index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>chocozap-LP</title>
-  </head>
 
-  <body>
-    <header>
-      <p>ヘッダーを構成してください！</p>
-      <p>＊pタグは消して構いません！自由に作成してみてください！</p>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>chocozap-LP</title>
+</head>
 
-    <main>
-      <section class="first-view">
-        <!-- 焦らせる -->
-         
-      </section>
+<body>
+  <header>
+    <!-- ヘッダーの内容を自由に作成してください -->
+  </header>
 
-      <section >
-        <!-- before after -->
+  <main>
+    <section class="first-view">
+      <!-- 焦らせる -->
+    </section>
 
-      </section>
+    <section>
+      <!-- before after -->
+    </section>
 
-      <section>
-        <!-- 料金 -->
+    <section>
+      <!-- 料金 -->
+    </section>
 
-      </section>
+    <section class="benefits">
+      <!-- 設備紹介 -->
+      <h1>設備紹介</h1>
+      
+      <!-- モーダルウィンドウのテンプレート -->
+      <div id="myModal01" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/point_01_ttl.png" alt="たったこれだけ！着いたら5秒スタート">
+        </div>
+      </div>
 
-      <section class="benefits">
-        <!-- 設備紹介 -->
+      <div id="myModal02" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/main01_02_benri_231226.png" alt="乗るだけ、身につけるだけ撮るだけの健康記録">
+        </div>
+      </div>
 
-      </section>
+      <div id="myModal03" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/main01_01_kantan.png" alt="アプリ">
+        </div>
+      </div>
 
-      <section class="faq-question">
-        <!-- FAQ -->
+      <div id="myModal04" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_07.png" alt="セルフエステ">
+        </div>
+      </div>
 
-      </section>
+      <div id="myModal05" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_10.png" alt="セルフネイル">
+        </div>
+      </div>
 
-      </article>
-    </main>
-    <footer>copyright © chocoZAP</footer>
-  </body>
+      <div id="myModal06" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_09.png" alt="セルフホワイトニング">
+        </div>
+      </div>
+
+      <div id="myModal07" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_08.png" alt="セルフ脱毛">
+        </div>
+      </div>
+
+      <div id="myModal08" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_12.png" alt="マッサージチェア">
+        </div>
+      </div>
+
+      <div id="myModal09" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_11.png" alt="デスクバイク">
+        </div>
+      </div>
+
+      <div id="myModal10" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_02.png" alt="マシンピラティス">
+        </div>
+      </div>
+
+      <div id="myModal11" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_01.png" alt="カラオケ">
+        </div>
+      </div>
+
+      <div id="myModal12" class="modal">
+        <div class="modal-content">
+          <span class="close">✖︎</span>
+          <img src="images/offer_03.png" alt="ランドリー">
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal01">
+              <img src="images/fv_click_icon_01.png" alt="ジム">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal02">
+              <img src="images/fv_click_icon_02.png" alt="スターターキット">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal03">
+              <img src="images/fv_click_icon_03.png" alt="アプリ">
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal04">
+              <img src="images/fv_click_icon_04.png" alt="セルフエステ">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal05">
+              <img src="images/fv_click_icon_05.png" alt="セルフネイル">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal06">
+              <img src="images/fv_click_icon_06.png" alt="セルフホワイトニング">
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal07">
+              <img src="images/fv_click_icon_07.png" alt="セルフ脱毛">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal08">
+              <img src="images/fv_click_icon_08.png" alt="マッサージチェア">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal09">
+              <img src="images/fv_click_icon_09.png" alt="デスクバイク">
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal10">
+              <img src="images/fv_click_icon_10.png" alt="マシンピラティス">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal11">
+              <img src="images/fv_click_icon_11.png" alt="カラオケ">
+            </button>
+          </div>
+          <div class="col-4">
+            <button type="button" class="modalBtn" data-modal="myModal12">
+              <img src="images/fv_click_icon_12.png" alt="ランドリー">
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-question">
+      <!-- FAQ -->
+    </section>
+
+  </main>
+
+  <footer>copyright © chocoZAP</footer>
+
+  <script>
+    // すべてのモーダルボタンに対するイベントリスナーを設定
+    document.querySelectorAll('.modalBtn').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var modalId = this.getAttribute('data-modal');
+        var modal = document.getElementById(modalId);
+        modal.style.display = "block";
+      });
+    });
+
+    // すべてのモーダルの閉じるボタンに対するイベントリスナーを設定
+    document.querySelectorAll('.modal .close').forEach(function (span) {
+      span.addEventListener('click', function () {
+        var modal = this.closest('.modal');
+        modal.style.display = "none";
+      });
+    });
+
+    // モーダルの外側をクリックすると閉じる
+    window.addEventListener('click', function (event) {
+      if (event.target.classList.contains('modal')) {
+        event.target.style.display = "none";
+      }
+    });
+  </script>
+
+</body>
+
 </html>
