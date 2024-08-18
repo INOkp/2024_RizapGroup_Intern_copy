@@ -68,11 +68,13 @@ header {
   margin-left: 10%;
 }
 
-.fv-title-group div{
+.fv-title-group div {
   margin-bottom: 10px;
 }
 
-.fv-title01, .fv-title02, .fv-title03 {
+.fv-title01,
+.fv-title02,
+.fv-title03 {
   background-color: white;
   background-repeat: no-repeat;
   background-position: 100% 0;
@@ -92,7 +94,7 @@ header {
   font-size: large;
 }
 
-.price-area p{
+.price-area p {
   margin: 0;
   padding: 0;
 }
@@ -121,6 +123,8 @@ header {
 
 .faq-question {
   text-align: center;
+  height: 1500px;
+  background-color: #fffee2;
   background-color:#fffee2;
   padding: 10px 10px 100px 10px;
 }
@@ -129,8 +133,7 @@ header {
   font-size: 2.5rem;
 }
 
-
-.faq-QandA{
+.faq-QandA {
   color: #333333;
   text-align: center;
   background-color: #ffffff;
@@ -141,7 +144,7 @@ header {
   font-size: 2rem;
 }
 
-.float-banner{
+.float-banner {
   position: fixed;
   bottom: 3%;
   width: 100%;
@@ -150,32 +153,32 @@ header {
 }
 
 
-.banner-nyukai{
+.banner-nyukai {
   max-width: 386px;
   border-radius: 30px;
   background: #32AA8B;
   width: 70%;
-  list-style:none;
+  list-style: none;
   display: inline;
   text-align: center;
-  box-shadow: 5px 5px 5px rgba(200,200,200,0.8);
+  box-shadow: 5px 5px 5px rgba(200, 200, 200, 0.8);
   box-sizing: border-box;
   margin: 20px;
-  padding: 1.2%;
+  padding: 3%;
 }
 
-.banner-tempo{
+.banner-tempo {
   max-width: 232px;
   border-radius: 30px;
   background: #F2F1EF;
   width: 30%;
-  list-style:none;
+  list-style: none;
   display: inline;
   text-align: center;
-  box-shadow: 5px 5px 5px rgba(200,200,200,0.8);
+  box-shadow: 5px 5px 5px rgba(200, 200, 200, 0.8);
   box-sizing: border-box;
   margin: 20px;
-  padding: 1.2%;
+  padding: 3%;
 }
 
 .bf {
@@ -194,10 +197,16 @@ header {
 }
 
 .bf-a {
-  color: 122939;
+  color: blue;
   text-decoration: none;
   /* 395764 */
+  font-size: 30px;
 }
+
+.bf-a:hover {
+  opacity: 0.5;
+}
+
 /* モーダルの背景 */
 .modal {
   display: none;
