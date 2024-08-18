@@ -126,19 +126,22 @@ header {
   height: 1500px;
   background-color: #fffee2;
   background-color:#fffee2;
-  padding-bottom: 100px;
+  padding: 10px 10px 100px 10px;
+}
+
+.faq-question h3{
+  font-size: 2.5rem;
 }
 
 .faq-QandA {
   color: #333333;
-  font-size: 1rem;
   text-align: center;
   background-color: #ffffff;
-  margin: 2rem auto;
+  margin: 2rem 20%;
   padding: 2rem;
   border-radius: 2rem;
   border: solid 3px #333333;
-  width: 50rem;
+  font-size: 2rem;
 }
 
 .float-banner {
