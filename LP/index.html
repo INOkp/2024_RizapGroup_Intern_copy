@@ -46,9 +46,8 @@
         <img src="images/bf_chocoZAPpower.svg" width=250px alt="chocoZAPpower" class="m-5"/>
         <img src="images/bf_after_2.png" width=230px alt="after" />
         <p class="fs-1 mt-3 mb-5">chocoZAPなら、</br>
-          <a href="https://lp.chocozap.jp/main-01/" class="bf-a">美容脱毛</a>に<a href="https://lp.chocozap.jp/main-01/" class="bf-a">ホワイトニング</a>、<a href="https://lp.chocozap.jp/main-01/" class="bf-a">筋トレ</a>、<a href="https://lp.chocozap.jp/main-01/" class="bf-a">カラオケ</a>まで、</br>
+          <span class="bf-a" data-modal="myModal07">美容脱毛</span>に<span class="bf-a" data-modal="myModal06">ホワイトニング</span>、<span class="bf-a" data-modal="myModal01">筋トレ</span>、<span class="bf-a" data-modal="myModal11">カラオケ</span>まで、</br>
         あなたがモテるための道具がいっぱい！</p>
-
 
     <section>
       <!-- before after -->
@@ -239,6 +238,14 @@
   <script>
     // すべてのモーダルボタンに対するイベントリスナーを設定
     document.querySelectorAll('.modalBtn').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var modalId = this.getAttribute('data-modal');
+        var modal = document.getElementById(modalId);
+        modal.style.display = "block";
+      });
+    });
+
+    document.querySelectorAll('.bf-a').forEach(function (button) {
       button.addEventListener('click', function () {
         var modalId = this.getAttribute('data-modal');
         var modal = document.getElementById(modalId);
