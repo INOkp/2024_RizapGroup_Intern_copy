@@ -163,3 +163,24 @@ header {
   margin: 20px;
   padding: 1.2%;
 }
+
+.bf {
+  color: #122939;
+  padding: 10px;
+  text-align: center;
+  /* font-family: "游ゴシック体","YuGothic";  */
+  font-weight: bold;
+  background-color: #EEF0F1;
+}
+
+.bf-line {
+  color: #122939;
+  background: linear-gradient(transparent 70%, #F4E22A 70%);
+  font-weight: bold;
+}
+
+.bf-a {
+  color: 122939;
+  text-decoration: none;
+  /* 395764 */
+}
