@@ -115,14 +115,14 @@ header {
 
 .benefits {
   text-align: center;
-  height: 500px;
   background-color: azure;
+  padding: 40px 0;
 }
 
 .faq-question {
   text-align: center;
-  height: 1500px;
   background-color:#fffee2;
+  padding-bottom: 100px;
 }
 
 .faq-QandA{
