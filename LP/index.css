@@ -84,7 +84,8 @@ header {
 
 .price-area {
   text-align: center;
-  margin: 3% 25%;
+  padding: 3% 25%;
+  background-color: beige;
 }
 
 .price-area h2 {
@@ -98,22 +99,18 @@ header {
 
 .price-view {
   border-radius: 10px;
-  background-color: antiquewhite;
-  padding-bottom: 10px;
+  background-color: rgb(255, 255, 155);
+  padding-bottom: 20px;
 }
 
 .price-display {
-  font-size: 40px;
+  font-size: 65px;
 }
 
 .price-num-display {
   color: orange;
   font-size: 150%;
   text-decoration-line: underline;
-}
-
-.price-num-display:hover {
-  transform: scale(1.3, 1.3);
 }
 
 .benefits {
